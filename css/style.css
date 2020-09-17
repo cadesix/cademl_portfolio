@@ -1,0 +1,97 @@
+body {
+  font-family: helvetica;
+  font-weight: 400;
+  color: white;
+  background-color: black;
+  overflow-x: hidden;
+}
+
+video {
+  display: none;
+}
+
+nav {
+  width: 10px;
+  position: fixed;
+  writing-mode: vertical-lr;
+  margin-top: 5vh;
+}
+
+
+/** ABOUT PAGE **/
+
+.about {
+  text-align: center;
+  width: 100vw;
+  padding-top: 45vh;
+}
+
+.clients {
+  position: absolute;
+  bottom: 2vh;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+}
+
+.notitalic {
+  font-style: normal;
+}
+
+/** PROJECTS **/
+
+.title {
+  margin-top: 5px;
+}
+
+.dpimage {
+  width: 100vw;
+  text-align: center;
+  font-style: italic;
+  font-size: .8vw;
+}
+
+.dpimage img {
+  width: 60vw;
+  margin-top: 2vh;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width: 812px)
+and (-webkit-device-pixel-ratio : 3) {
+
+  nav {
+  font-size: 4vw;
+  }
+
+}

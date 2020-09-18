@@ -102,15 +102,20 @@ and (-webkit-device-pixel-ratio : 3) {
     padding-left: 1vw;
   }
 
-  .about_wrapper {
-    width: 100%;
+  .about {
     padding-left: 3vw;
+    padding-right: 3vw;
+  }
+
+  .about_wrapper {
+    width: 85vw;
     font-size: 3vw;
     overflow-x: hidden;
+
   }
 
   .clients {
-    bottom: 10vh;
+    bottom: 20vh;
   }
 
 }

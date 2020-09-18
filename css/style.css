@@ -103,8 +103,11 @@ and (-webkit-device-pixel-ratio : 3) {
   }
 
   .about_wrapper {
-    margin-right: 3vw;
-    font-size: 2vw;
+    width: 100%;
+    padding-right: 7vw;
+    padding-left: 4vw;
+    font-size: 3vw;
+    overflow-x: hidden;
   }
 
 }

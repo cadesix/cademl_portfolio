@@ -48,7 +48,7 @@ nav {
   width: 100vw;
   text-align: center;
   font-style: italic;
-  font-size: .8vw;
+  font-size: 1.5vh;
 }
 
 .dpimage img {
@@ -91,7 +91,20 @@ and (max-device-width: 812px)
 and (-webkit-device-pixel-ratio : 3) {
 
   nav {
-  font-size: 4vw;
+    font-size: 3vw;
+  }
+
+  .title {
+    font-size: 2vw;
+  }
+
+  .dpimage {
+    padding-left: 1vw;
+  }
+
+  .about_wrapper {
+    margin-right: 3vw;
+    font-size: 2vw;
   }
 
 }

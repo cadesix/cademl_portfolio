@@ -4,15 +4,14 @@
 
 .grid-container {
   margin:  auto;
-  margin-bottom: 5vh;
   width: 80%;
-  padding: 0 1vw 0 1vw;
   display: grid;
   flex-flow: row wrap;
-  transform: translateY(25vh);
+  transform: translateY(10vh);
   grid-template-columns: repeat(15, 1fr);
   grid-template-rows: repeat(5, .5fr, .5fr);
   grid-gap: .2vw;
+  object-fit: fill;
   position: relative;
 }
 
@@ -33,7 +32,8 @@
 .c3 {
   grid-column: 11 / 16;
   position: relative;
-  object-fit: cover;
+  object-fit: fill;
+  height: 100%;
 }
 
 .c4 {
@@ -67,7 +67,6 @@
   grid-column: 12 / 16;
   position: relative;
   object-fit: cover;
-  height: 100%;
 }
 
 .c9 {

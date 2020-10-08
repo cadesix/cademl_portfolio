@@ -74,13 +74,14 @@
   grid-column: 1 / 9;
   position: relative;
   object-fit: cover;
+  height: 100%;
 }
 
 .c10 {
   grid-column: 9 / 16;
   position: relative;
   object-fit: cover;
-  height: 100%;
+  width: 100%;
 }
 
 .c11 {

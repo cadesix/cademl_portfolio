@@ -55,6 +55,7 @@
   grid-column: 1 / 4;
   position: relative;
   object-fit: cover;
+  height: 100%;
 }
 
 .c7 {

@@ -91,7 +91,7 @@ and (min-device-width : 375px)
 and (max-device-width: 812px) {
 
   nav {
-    font-size: 3.5vw;
+    font-size: 3.8vw;
   }
 
   .title {
@@ -106,6 +106,7 @@ and (max-device-width: 812px) {
     padding-top: 35vh;
     width: 90vw;
     margin-left: 6vw;
+    padding-left: 10px;
     margin-right: 3.5vw;
     font-size: 3vw;
   }

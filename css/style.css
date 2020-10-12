@@ -27,6 +27,13 @@ nav {
   padding-top: 45vh;
 }
 
+.about2 {
+  text-align: center;
+  width: 100vw;
+  font-style: italic;
+  font-size: .8vw;
+}
+
 .clients {
   position: absolute;
   bottom: 2vh;
